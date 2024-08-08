@@ -1,0 +1,138 @@
+:root {
+    --azulescuro-cor: #050050;
+    --dark-cor: #000000;
+    --branco-cor: #ffffff;
+    --cinza-texto:#555555;
+}
+
+/* Reset basico CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Geral */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--branco-cor);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: var(--dark-cor);
+    font-size: 3.5em;
+    margin: 0;
+    font-family: Bebas Neue, sans-serif;
+}
+
+.content {
+    line-height: 1.6;
+}
+
+.content h2 {
+    color: var(--azulescuro-cor);
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin-bottom: 1em;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--cinza-texto);
+    margin-top: 10px;
+}
+
+/* Botão de Voltar */
+.back-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: linear-gradient(45deg, #001327, #010027);
+    color: var(--branco-cor);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000; 
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background: linear-gradient(45deg, #017cff, #00074b);
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px rgba(0, 61, 126, 0.5);
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.custom-title {
+    color: var(--azulescuro-cor);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.custom-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.custom-text {
+    flex: 1;
+    padding: 20px;
+    background-color: transparent; 
+    border-radius: 0; /* Remove bordas arredondadas */
+    box-shadow: none; /* Remove a sombra */
+    text-align: justify; /* Justifica o texto */
+    font-size: 1.0rem;
+    line-height: 1.6;
+    color: var(--cinza-texto);
+    margin-top: 10px;
+}
+
+.custom-image-container {
+    flex: 0 0 45%; /* Define um tamanho fixo para a imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.custom-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.custom-image-container:hover img {
+    transform: scale(1.05); /* Aumenta a imagem quando passa o mouse em cima */
+}
+
+.image-credit {
+    text-align: right;
+    font-style: italic;
+    color: var(--dark-cor);
+    margin-top: 10px;
+}
