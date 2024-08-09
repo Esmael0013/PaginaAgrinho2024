@@ -35,7 +35,9 @@ O objetivo deste projeto é desenvolver uma página web interativa e informativa
 - **Explorar a Perspectiva dos Jovens e suas Visões e Aspirações**: Dar voz aos jovens, oferecendo uma ideia de como expressarem suas visões e como enxergam o futuro das oportunidades que surgem com a transição do campo para a cidade.
 
 ## Referências
-Todas as imagens são de minha autoria. Por exemplo, o ícone da página foi criado com base no tema de astrofotografia, utilizando estrelas e um ícone azul com figuras estelares. A maior parte do site tem o tema voltado para estrelas, astrofotografia e modernidade.
+Todas as imagens utilizadas no projeto são de autoria própria.
+O ícone da página foi criado com base no tema de astrofotografia, utilizando estrelas e um ícone azul com figuras estelares.
+A maior parte do site tem o tema voltado para estrelas, astrofotografia e modernidade.
 
 ## Agradecimentos
 Agradeço a todos que apoiaram e contribuíram para a realização deste projeto, incluindo amigos, familiares e professores e pedagogos que ofereceram feedback valioso no desenvolvimento✨💫. 
