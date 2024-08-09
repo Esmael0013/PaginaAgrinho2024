@@ -37,7 +37,4 @@ O objetivo deste projeto é desenvolver uma página web interativa e informativa
 ## Referências
 Todas as imagens utilizadas no projeto são de autoria própria.
 O ícone da página foi criado com base no tema de astrofotografia, utilizando estrelas e um ícone azul com figuras estelares.
-A maior parte do site tem o tema voltado para estrelas, astrofotografia e modernidade.
-
-## Agradecimentos
-Agradeço a todos que apoiaram e contribuíram para a realização deste projeto, incluindo amigos, familiares e professores e pedagogos que ofereceram feedback valioso no desenvolvimento✨💫. 
+A maior parte do site tem o tema voltado para estrelas, astrofotografia e modernidade✨💫.
